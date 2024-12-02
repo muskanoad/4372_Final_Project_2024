@@ -140,7 +140,4 @@ def visualize_3d_phantom(phantom):
     ax.legend()
     plt.show()
 
-# Uncomment the line below to visualize the 3D structure (optional, may take time for large arrays)
-# visualize_3d_phantom(phantom_with_angled_split)
-
 

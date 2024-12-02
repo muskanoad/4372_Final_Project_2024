@@ -18,7 +18,7 @@ def generate_leg_phantom(leg_radius=50, bone_radius=20, height=100):
 # Generate the phantom
 phantom = generate_leg_phantom()
 
-# Add the functions for contrast and angle analysis (as previously provided)
+# Add the functions for contrast and angle analysis 
 def calculate_contrast(phantom_slice):
     bone_pixels = phantom_slice[phantom_slice == 2]
     soft_tissue_pixels = phantom_slice[phantom_slice == 1]
